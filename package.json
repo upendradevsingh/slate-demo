@@ -1,0 +1,31 @@
+{
+  "name": "slate-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --output-public-path=/build/ --progress --watch --profile --colors"
+  },
+  "keywords": [
+    "components",
+    "preact",
+    "react"
+  ],
+  "author": "UD",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-preact": "^2.0.0",
+    "preact": "^10.4.0",
+    "slate": "^0.57.1",
+    "slate-history": "^0.57.1",
+    "slate-react": "^0.57.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
